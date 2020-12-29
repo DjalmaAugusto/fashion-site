@@ -1,0 +1,129 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+}
+
+.layout{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.header{
+    height: 50px;
+    background: #162028;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo{
+    margin: 10px 0 0 135px;
+    flex-grow: 1;
+}
+
+.header-nav{
+    align-self: flex-end;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color .3s linear;
+}
+.header-nav a:hover{
+     color: white;   
+}
+
+.section-portfolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.section-portfolio h1{
+    font-size: 36px;
+}
+
+.section-portfolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.section-portfolio-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-portfolio-gallery-card h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.section-about-us {
+    color: white;
+    padding: 100px;
+    background-color: #003d52;
+    background-image: url(../images/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.section-about-us h2{
+    text-transform: uppercase;
+    font-size: 50px;    
+    font-weight: normal;
+}
+
+.section-about-us p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+.section-contact{
+    margin: 50px 0 0 0;
+}
+
+.section-contact-info address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 50px 0;
+}
+
+.section-contact-address {
+    width: 100%;
+    height: 450px;
+}
+
+.section-contact-address iframe{
+    width: 100%;
+}
+
+.footer{
+    background-color: #0b171f;
+    padding: 15px;
+    font-size: 12px;
+    color: #6f8597;
+    text-align: center;
+    letter-spacing: 5px;
+}
